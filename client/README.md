@@ -1,9 +1,9 @@
-- Guests og the website can leave messages
-- A pin will be addes to the map with the users location ad message.
+- Visitors can leave feedbacks with their location
+- A pin will be addes to the map with the user's current location, name and message.
 
 Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(https://www.youtube.com/watch?v=J7pFiXh-ydA&t=16s)
 
-## TODO
+## DONE
 
 - [x] create-react-app
 - [x] install react-leaflet & leaflet ( needed to add style-link to the head of index.html || import 'leaflet/dist/leaflet.css' && set custom markers)
@@ -18,9 +18,9 @@ Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(http
   - [x] validation:
     - [x] validate inputs on change with error messages
     - [x] if user's location is set and all inputs are valid enable the submit button
-  * when form submitted - POST /message
-- [x] setup server with create-express-api ( with )
-- [x] add 'monk' and 'joi'(monk - A tiny layer that provides simple yet substantial usability improvements for MongoDB usage within Node.JS; )
+  - when form submitted - POST /message
+- [x] setup server with create-express-api 
+- [x] add 'monk' and 'joi'
 - [x] POST /messages
   - latitude
   - longitude
@@ -31,11 +31,11 @@ Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(http
 - [x] add pins to the map
 - [x] onClick pin show a message
 
-* [x] when message is successfully submitted get all messages and set initial map view
-* [x] if error in fetching messages or form submitting show error snackbar
-* [x] if error in fetching user's location don't show form in the messageCard, instead show error msg with close button
+- [x] when message is successfully submitted get all messages and set initial map view
+- [x] if error in fetching messages or form submitting show error snackbar
+- [x] if error in fetching user's location don't show form in the messageCard, instead show error msg with close button
 
-**Stretch**
+## TODO
 
 - [] i18n(en, ua, pl)
 - [] Login
@@ -47,6 +47,8 @@ Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(http
 
 \*\* @hapi/joi - Object schema description language and validator for JavaScript objects https://github.com/hapijs/joi
 
-\*\*Helmet - Help secure Express apps with various HTTP headers https://helmetjs.github.io/
+\*\* Helmet - Help secure Express apps with various HTTP headers https://helmetjs.github.io/
 
 \*\* Cors - Node.js CORS middleware https://github.com/expressjs/cors
+
+\*\* Monk - 'A tiny layer that provides simple yet substantial usability improvements for MongoDB usage within Node.JS'
