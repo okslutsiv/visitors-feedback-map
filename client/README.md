@@ -1,7 +1,7 @@
 - Guests og the website can leave messages
 - A pin will be addes to the map with the users location ad message.
 
-After "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(https://www.youtube.com/watch?v=J7pFiXh-ydA&t=16s)
+Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(https://www.youtube.com/watch?v=J7pFiXh-ydA&t=16s)
 
 ## TODO
 
