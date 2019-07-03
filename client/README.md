@@ -11,10 +11,10 @@ Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(http
 - [x] get a user location
   - [x] with the browser
   - [x] with the IP (https://ipgeolocation.io/ Free IP Geolocation API and GeoIP Lookup Database)
-  * [x] with the address from latlng ( Nominatium reverse API https://nominatim.openstreetmap.org/reverse?)
-- [x] show a special pin at the user's location
+  - [x] with the place's display_name from latlng ( Nominatium reverse API https://nominatim.openstreetmap.org/reverse?)
+- [x] show a big red pin at the user's location
   - [x] Users can drag their markers to change the location
-- [x] show a form to submit a message with place address
+- [x] show a form to submit a message with place's address/display_name
   - [x] validation:
     - [x] validate inputs on change with error messages
     - [x] if user's location is set and all inputs are valid enable the submit button
@@ -28,7 +28,7 @@ Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(http
   - message
   - date/time
 - [x] when the page loads get all messages
-- [x] add pins to the map
+- [x] add blue pins to the map
 - [x] onClick pin show a message
 
 - [x] when message is successfully submitted get all messages and set initial map view
