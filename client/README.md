@@ -1,7 +1,9 @@
 - Visitors can leave feedbacks with their location
 - A pin will be addes to the map with the user's current location, name and message.
 
-Inspired by "Build a Maps App with Leaflet - React/Node.js/Express/MongoDB"(https://www.youtube.com/watch?v=J7pFiXh-ydA&t=16s)
+Inspired by:
+* [Build a Maps App with Leaflet - React/Node.js/Express/MongoDB](https://www.youtube.com/watch?v=J7pFiXh-ydA&t=16s)
+* [Using Leaflet in React apps: React Hooks](https://cherniavskii.com/using-leaflet-in-react-apps-with-react-hooks/)
 
 ## DONE
 
